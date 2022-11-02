@@ -17,7 +17,7 @@ p {
   text-align: centre;
 }
 
-table, td {
+table, tr {
   border: 1px solid;
 }
 
@@ -26,6 +26,6 @@ table {
   width: 10%;
 }
 
-td {
+tr {
   text-align: center;
 }
