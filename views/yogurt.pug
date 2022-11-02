@@ -5,10 +5,8 @@ block content
   - var result = [{"yogurt_flavour":"vanela", "calories":70, "yogurt_size:medium"}, {"yogurt_flavour":"chocolate", "calories":50, "yogurt_size:Large"}, {"yogurt_flavour":"blubrerry", "calories":20, "yogurt_size:small"}];
   div(class="container-fluid")
     div(class="row")
-       each items, index in results 
+       each items in results 
            div.col-sm-2(onclick=`buy(${index})`) yogurt_flavour: #{items["yogurt_flavour"]} <br> calories:  #{items["calories"]} <br>yogurt_size:  #{items["yogurt_size"]}
   
-  script. 
-    function buy(index) {
-        alert("You purchased item " + index + ".")
-    }
+  
+    
