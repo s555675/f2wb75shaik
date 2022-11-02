@@ -16,16 +16,3 @@ p {
   font-size: 18px; 
   text-align: centre;
 }
-
-table, tr, td {
-  border: 1px solid black;
-}
-
-table, td {
-  border-collapse: collapse;
-  width: 10%;
-}
-
-tr, td {
-  text-align: center;
-}
