@@ -17,15 +17,15 @@ p {
   text-align: centre;
 }
 
-table, tr {
+table, tr, td {
   border: 1px solid black;
 }
 
-table {
+table, td {
   border-collapse: collapse;
   width: 10%;
 }
 
-tr {
+tr, td {
   text-align: center;
 }
